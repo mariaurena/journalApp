@@ -6,7 +6,7 @@ export const ImageGallery = ({ images }) => {
 
   return (
     <Box sx={{ width: '100%', height: '100%', overflowY: 'scroll' }}>
-      <ImageList variant="masonry" cols={3} gap={8}>
+      <ImageList variant="masonry" cols = { 4 } gap = { 8 }>
         {images.map((image) => (
           <ImageListItem key={image}>
             <img
